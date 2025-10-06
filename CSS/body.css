@@ -7,17 +7,14 @@ body {
 .burguer_grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-height: 800px;
+    place-items: center;
     border: solid black 5px;
     background-color: black;
 }
 
 
-
-.main_section {
-    border: solid white 2px;
-    display: grid;
-    grid-template-columns: 2(1fr);
-}
 
 .burguer_image {
     max-width: 100%;
@@ -25,23 +22,18 @@ body {
     
 }
 
-.image_container {
-    display: flex;
-}
 
 .burguer_title {
-    display: flex;
-    max-width: 60%;
-    justify-content: center;
+    
     color: whitesmoke;
     font-style: italic;
-    font-size: 20px;
-    margin-top: 400px;
+    font-size: 50px;
+    margin-top: 100px;
 }
 
 .burguer_text {
-    display: flex;
-    max-width: 60%;
-    justify-content: center;
+    
+    font-size: 32px;
     color: whitesmoke;
+    margin-bottom: 50px;
 }
