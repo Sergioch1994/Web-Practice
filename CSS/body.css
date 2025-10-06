@@ -1,0 +1,47 @@
+body {
+    background-size: cover;
+    font-family: sans-serif;
+    
+}
+
+.burguer_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid black 5px;
+    background-color: black;
+}
+
+
+
+.main_section {
+    border: solid white 2px;
+    display: grid;
+    grid-template-columns: 2(1fr);
+}
+
+.burguer_image {
+    max-width: 100%;
+    position: relative;
+    
+}
+
+.image_container {
+    display: flex;
+}
+
+.burguer_title {
+    display: flex;
+    max-width: 60%;
+    justify-content: center;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 400px;
+}
+
+.burguer_text {
+    display: flex;
+    max-width: 60%;
+    justify-content: center;
+    color: whitesmoke;
+}
