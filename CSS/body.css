@@ -3,6 +3,7 @@ body {
     font-family: sans-serif;
     
 }
+/* Hamburguer black background section */
 
 .burguer_grid {
     display: grid;
@@ -36,4 +37,42 @@ body {
     font-size: 32px;
     color: whitesmoke;
     margin-bottom: 50px;
+}
+
+/* Stats section */ 
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background: #fff;
+  text-align: center;
+}
+.stats div strong {
+  font-size: 2rem;
+}
+
+.pizza_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    place-items: center;
+    border: solid gray 2px;
+}
+
+/* About Us section */ 
+.pizza_title {
+    font-family: sans-serif;
+    font-weight: bold;
+    
+    
+}
+    
+    
+    
+
+.read_more_button {
+    background-color: #ffc107;
+    font-family: sans-serif;
+    color: white;
 }
