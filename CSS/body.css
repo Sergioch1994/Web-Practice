@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
     
 }
-/* Hamburguer black background section */
+
 
 .burguer_grid {
     display: grid;
@@ -39,7 +39,7 @@ body {
     margin-bottom: 50px;
 }
 
-/* Stats section */ 
+ 
 
 .stats {
   display: flex;
@@ -64,7 +64,7 @@ body {
     border: solid gray 2px;
 }
 
-/* About Us section */ 
+
 .pizza_title {
     font-family: sans-serif;
     font-weight: bold;
