@@ -43,13 +43,17 @@ body {
 
 .stats {
   display: flex;
+  
   justify-content: space-around;
   padding: 2rem;
-  background: #fff;
   text-align: center;
+  margin: 50px;
+  
+
 }
 .stats div strong {
-  font-size: 2rem;
+  font-size: 3rem;
+  
 }
 
 .pizza_grid {

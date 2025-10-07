@@ -8,6 +8,7 @@ box-sizing: border-box;
 
 header {
     background-color: #ffc107;
+    display: flex;
     justify-content: space-between;
     
     
@@ -20,7 +21,7 @@ header {
 
 }
 .header_logo {
-    width: 140px;
+    width: 160px;
     height: auto;
     object-fit: contain;
     max-width: 50%;
